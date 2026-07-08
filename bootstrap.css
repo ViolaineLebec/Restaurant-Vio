@@ -1,0 +1,96 @@
+:root {
+    --abyss-color: #081B1B;
+    --ivory-color: #EEE8B2;
+    --kelp-color: #203B37;
+    --sand-color: #c18d52;
+    --seaform-color: #96CD80;
+    --mineral-color: #5A8F76;
+    --mist-color: #D7EFE3;
+}
+
+*{
+  font-family: "Playwrite NZ Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bg-body-tertiary {
+    --bs-tertiary-bg-rgb: var(--kelp-color);
+    background-color: var(--kelp-color);
+}
+
+.dark {
+    color: #EEE8B2;
+    background-color: #203B37;
+}
+
+.light {
+    color: #203B37;
+    background-color: #EEE8B2;
+}
+
+body,
+.navbar-brand,
+.navbar-toggler,
+.navbar-nav,
+.nav-link.active,
+.nav-link {
+    --bs-body-bg: var(--abyss-color);
+    --bs-navbar-brand-color: var(--ivory-color);
+    --bs-nav-link-color: var(--ivory-color);
+}
+
+#header {
+    color: var(--mineral-color);
+}
+
+.card {
+    --bs-card-bg: var(--kelp-color);
+    --bs-card-title-color: var(--ivory-color);
+    --bs-card-color: var(--mineral-color);
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h6 {
+    color: var(--seaform-color);
+}
+
+.btn {
+    --bs-btn-bg: var(--sand-color);
+}
+
+.prix {
+    color: var(--sand-color)
+}
+
+.div.row.light {
+    justify-content: center;
+}
+
+#form {
+    --bs-card-bg: var(--ivory-color);
+    --bs-body-bg: white;
+    --bs-card-title-color: var(--kelp-color);
+
+
+}
+
+
+.footer {
+    background-color: #081B1B;
+    color: var(--ivory-color)
+}
+
+#adresse {
+    color:var(--mineral-color)
+}
+
+#mist {
+    color:var(--mist-color)
+}
