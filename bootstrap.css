@@ -1,5 +1,5 @@
 :root {
-    --abyss-color: #081B1B;
+    --abyss-color: #0F2524;
     --ivory-color: #EEE8B2;
     --kelp-color: #203B37;
     --sand-color: #c18d52;
@@ -10,8 +10,19 @@
 
 *{
   font-family: "Playwrite NZ Guides", cursive;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
+}
+
+body {
+    background-image: url(Image3.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 110dvh;
+}
+
+.h1,h1 {
+    font-size: 4.75rem;
 }
 
 .bg-body-tertiary {
@@ -21,7 +32,6 @@
 
 .dark {
     color: #EEE8B2;
-    background-color: #203B37;
 }
 
 .light {
@@ -32,7 +42,6 @@
 body,
 .navbar-brand,
 .navbar-toggler,
-.navbar-nav,
 .nav-link.active,
 .nav-link {
     --bs-body-bg: var(--abyss-color);
