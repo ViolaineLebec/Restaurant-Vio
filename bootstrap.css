@@ -8,35 +8,10 @@
     --mist-color: #D7EFE3;
 }
 
-*{
-  font-family: "Playwrite NZ Guides", cursive;
-  font-weight: 100;
-  font-style: normal;
-}
-
-body {
-    background-image: url(Image3.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 110dvh;
-}
-
-.h1,h1 {
-    font-size: 4.75rem;
-}
-
-.bg-body-tertiary {
-    --bs-tertiary-bg-rgb: var(--kelp-color);
-    background-color: var(--kelp-color);
-}
-
-.dark {
-    color: #EEE8B2;
-}
-
-.light {
-    color: #203B37;
-    background-color: #EEE8B2;
+* {
+    font-family: "Playwrite NZ Guides", cursive;
+    font-weight: 100;
+    font-style: normal;
 }
 
 body,
@@ -49,8 +24,76 @@ body,
     --bs-nav-link-color: var(--ivory-color);
 }
 
+.h1,
+h1 {
+    font-size: 2rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+h6 {
+    color: var(--seaform-color);
+}
+
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    color: #EEE8B2;
+}
+
+.light {
+    color: #203B37;
+    background-color: #EEE8B2;
+}
+
+.div.row.light {
+    justify-content: center;
+}
+
+.bg-body-tertiary {
+    --bs-tertiary-bg-rgb: var(--kelp-color);
+    background-color: var(--kelp-color);
+}
+
+.section2 {
+    background-color: var(--ivory-color);
+}
+
 #header {
     color: var(--mineral-color);
+}
+
+.img-1 {
+    position: absolute;
+    top: 3vw;
+    right: 0px;
+    width: clamp(280px, 65vw, 940px);
+    height: auto;
+    z-index: -3;
+}
+
+.img-2 {
+    position: absolute;
+    top: 17vw;
+    right: 0px;
+    width: clamp(270px, 54vw, 780px);
+    height: auto;
+    z-index: -2;
+}
+
+.img-3 {
+    position: absolute;
+    top: 21vw;
+    right: 10vw;
+    width: clamp(150px, 30vw, 430px);
+    height: auto;
+    z-index: -1;
 }
 
 .card {
@@ -60,46 +103,37 @@ body,
     justify-content: center;
 }
 
-.center {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-h6 {
-    color: var(--seaform-color);
-}
-
 .btn {
     --bs-btn-bg: var(--sand-color);
 }
 
 .prix {
-    color: var(--sand-color)
-}
-
-.div.row.light {
-    justify-content: center;
+    color: var(--sand-color);
 }
 
 #form {
     --bs-card-bg: var(--ivory-color);
     --bs-body-bg: white;
     --bs-card-title-color: var(--kelp-color);
-
-
 }
-
 
 .footer {
     background-color: #081B1B;
-    color: var(--ivory-color)
+    color: var(--ivory-color);
 }
 
 #adresse {
-    color:var(--mineral-color)
+    color: var(--mineral-color);
 }
 
 #mist {
-    color:var(--mist-color)
+    color: var(--mist-color);
+}
+
+@media (min-width: 768px) {
+
+    h1,
+    .h1 {
+        font-size: 2.5rem;
+    }
 }
